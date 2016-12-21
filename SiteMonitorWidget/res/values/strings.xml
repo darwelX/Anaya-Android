@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instructions">Please enter a site name and a URL</string>
+    <string name="app_name">Site Monitor</string>
+<string name="site_name">Site Name</string>
+<string name="site_url">URL</string>
+<string name="site_homepage_url">Site Home Page URL</string>
+<string name="save_site">Save Site</string>
+<string name="visit_site">Visit Site</string>
+</resources>

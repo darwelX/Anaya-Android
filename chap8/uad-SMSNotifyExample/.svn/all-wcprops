@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/131/chapter8/trunk/SMSNotifyExample
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/128/chapter8/trunk/SMSNotifyExample/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/128/chapter8/trunk/SMSNotifyExample/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/128/chapter8/trunk/SMSNotifyExample/AndroidManifest.xml
+END

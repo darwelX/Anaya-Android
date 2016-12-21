@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.msi.manning.ua2efindedges"
+      android:versionCode="2"
+      android:versionName="1.01"
+      android:minSdkVersion="8">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name=".UA2EFindEdgesApp">
+        <activity android:name=".UA2EFindEdges"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutFindEdges">
+        </activity>
+
+    </application>
+
+
+<uses-sdk android:targetSdkVersion="8" android:minSdkVersion="8"></uses-sdk>
+</manifest> 

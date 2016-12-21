@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    >
+    <TextView android:id="@+id/readings" android:layout_width="wrap_content" android:layout_height="64px" />
+    <View android:layout_width="16px" android:layout_height="16px"  ></View>
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    >
+	    
+		<View android:id="@+id/motorB" android:layout_width="64px" android:layout_height="64px"  ></View>
+		<View android:layout_width="16px" android:layout_height="64px"  ></View>
+		<View android:id="@+id/motorC" android:layout_width="64px" android:layout_height="64px"  ></View>
+	</LinearLayout>
+    <View android:layout_width="16px" android:layout_height="64px"  ></View>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    >
+		<Button 
+		android:id="@+id/connect"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Connect!"
+		android:onClick="findRobot"
+		/>
+		<Button 
+		android:id="@+id/disconnect"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Disconnect!"
+		android:onClick="disconnectFromRobot"
+		/>
+	</LinearLayout>	
+	
+	
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is /res/layout/main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeVideoLayoutView"
+		android:layout_centerInParent="true">
+        
+	        <VideoView android:id="@+id/videoView" android:layout_centerInParent="true" android:layout_height="302px" android:layout_width="240px"/>
+		    
+    </RelativeLayout>
+
+	<LinearLayout	
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/relativeVideoLayoutView">
+		<ImageButton android:id="@+id/playRecordingBtn" 
+		   		android:layout_width="wrap_content"
+		   	    android:layout_height="wrap_content" 
+		   	    android:background="@drawable/play"  
+		   	    />
+	   	
+	   	<ImageButton android:id="@+id/bgnBtn" 
+	   			android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content" 
+	    	    android:background="@drawable/record"
+	    	    android:enabled="false" 
+		   	    />
+	</LinearLayout>    
+</RelativeLayout>

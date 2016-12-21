@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/126/chapter8/trunk/NotifyAlarm
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/122/chapter8/trunk/NotifyAlarm/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/122/chapter8/trunk/NotifyAlarm/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/122/chapter8/trunk/NotifyAlarm/AndroidManifest.xml
+END

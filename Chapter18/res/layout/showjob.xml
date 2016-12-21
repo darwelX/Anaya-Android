@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/showjob"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+	<TextView	android:id="@+id/details"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	/>
+	
+	<Button android:id="@+id/mapjob"
+	android:text="@string/map_job_location"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	/>
+	
+	<Button android:id="@+id/productinfo"
+	android:text="@string/get_product_info"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	/>
+	
+	<Button android:id="@+id/closejob"
+	android:text="@string/close_job"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	/>
+	
+	
+	
+</LinearLayout>	
+

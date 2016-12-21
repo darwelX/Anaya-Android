@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">LinkedInAdapter</string>
+  <string name="login_activity_email_label">Email Address</string>
+  <string name="login_activity_instructions">Please click the
+    button below to log in to LinkedIn.</string>
+  <string name="remoteLogin">Log In Online</string>
+  <string name="login_activity_pin_label">PIN</string>
+  <string name="login_activity_ok_button">Sign in</string>
+  <string name="empty_fields_error"
+    >Please enter your email address and password.</string>
+  <string name="start_login_error">Unable to connect to LinkedIn. 
+    Please verify your network connection and try again later.</string>
+  <string name="login_fail_error">Login failed.  
+    Please click Log In Online and get a new PIN.</string>
+  <string name="working">Finishing authentication.
+    Please wait...</string>
+  <string name="login_label">LinkedIn Login</string>
+  <string name="contact_summary">LinkedIn</string>
+  <string name="auth_token_label">LinkedIn</string>
+</resources>

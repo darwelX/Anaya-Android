@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+   
+    
+    >
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#000000"
+	android:color="#ffffffff"
+	android:text="Sample code from Unlocking Android Second Edition.  This application demonstrates the use of the Bluetooth API and Orientation Sensor.  These combine to drive a Lego Mindstorms NXT Robot (trademark Lego).  Please visit the accompanying website with the book Unlocking Android Second Edition."/>
+<Button android:id="@+id/VisitSite"  
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:text="Learn more about Unlocking Android"
+    />
+
+</LinearLayout>

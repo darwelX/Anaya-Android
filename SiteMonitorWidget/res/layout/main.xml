@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/instructions"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/site_name"
+ />
+
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/etSiteName" 
+    android:text="sitename"
+ />
+  
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/site_url"
+ />
+
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/etSiteURL" 
+    android:text="http://"
+ />
+
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/site_homepage_url"
+ />
+
+<EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:id="@+id/etSiteHomePageURL" 
+    android:text="http://"
+ />
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+
+
+<Button android:text="@string/save_site" android:id="@+id/btnSaveSite" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="@string/visit_site" android:id="@+id/btnVisitSite" android:layout_width="wrap_content" android:layout_height="wrap_content" ></Button>
+
+</LinearLayout>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:id="@+id/tvSiteMessage"
+    android:autoLink="all"
+ />
+
+    
+</LinearLayout>

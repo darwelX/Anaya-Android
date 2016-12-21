@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unlocking Android</string>
+    <string name="sign_and_close">Firmar y cerrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="refresh_job_list">Actualizar trabajo</string>
+    <string name="manage_jobs">Gestión de trabajos</string>
+    <string name="settings">Configuraciones</string>
+    <string name="user">Usuario</string>
+    <string name="server">Servidor</string>
+    <string name="refreshing_job_list">Actualizando lista de trabajos</string>
+    <string name="connecting">Conectando</string>
+    <string name="there_are_count_jobs">Hay %d trabajo</string>
+    <string name="jobid">Identificador del trabajo</string>
+    <string name="comments">Comentarios</string>
+    <string name="product">Producto</string>
+    <string name="map_job_location">Localización del trabajo en el mapa</string>
+    <string name="get_product_info">Obtener información del producto</string>
+    <string name="job_is_closed">Trabajo cerrado</string>
+    <string name="view_signature">Ver firma</string>
+    <string name="email_address">Dirección de correo electrónico</string>
+    <string name="server_url">Servidor URL</string>
+    <string name="save_settings">Guardar configuraciones</string>
+    <string name="close_job">Cerrar trabajo</string>
+    
+</resources>
+ 
